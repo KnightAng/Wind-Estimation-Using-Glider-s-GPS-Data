@@ -56,7 +56,6 @@ groundtrack= in_profile(:,15);
 %verticalv= in_profile(:,16);
 n_epochs=length(time);
 %altitude(8826:8836)=1399.6*ones(11,1);
-%原data_2017_Mag_rc_groundtrack_windvel.csv文件数据有误，目前已在.csv中修改
 %thermallift=in_profile(:,18);
 
 %% wind parameters
