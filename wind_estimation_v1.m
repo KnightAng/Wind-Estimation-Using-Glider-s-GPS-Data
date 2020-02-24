@@ -11,16 +11,8 @@ clc;
 clear all;
 close all;
 
-%addpath(genpath('D:\Matlabfolder\SA\ECF_Magnetometer\igrf'));
-%addpath(genpath('/home/k/K/MatlabR2019b/Matlabfolder/SA/Thermal identification/EKF'));
-% CONFIGURATION
-% Input truth motion profile filename
-%input_profile_name = 'data_2017_Mag_rc_groundtrack_windvel.csv';
-
 %"no thermal" case is used for checking estimation of v_wind
-
-
-% ASG29 ASK21 £¨right turn| Clockwise£©5kt 10kt 15 kt 180deg wind
+% ASG29 ASK21 ï¼ˆright turn| Clockwiseï¼‰5kt 10kt 15 kt 180deg wind
 %input_profile_name = 'data_202002181837wind(50fps d=2000ft)part2.csv';
 %input_profile_name = 'data_202002181837wind(50fps d=2000ft).csv';
 
@@ -64,7 +56,7 @@ groundtrack= in_profile(:,15);
 %verticalv= in_profile(:,16);
 n_epochs=length(time);
 %altitude(8826:8836)=1399.6*ones(11,1);
-%Ô­data_2017_Mag_rc_groundtrack_windvel.csvÎÄ¼şÊı¾İÓĞÎó£¬Ä¿Ç°ÒÑÔÚ.csvÖĞĞŞ¸Ä
+%åŸdata_2017_Mag_rc_groundtrack_windvel.csvæ–‡ä»¶æ•°æ®æœ‰è¯¯ï¼Œç›®å‰å·²åœ¨.csvä¸­ä¿®æ”¹
 %thermallift=in_profile(:,18);
 
 %% wind parameters
